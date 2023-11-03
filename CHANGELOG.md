@@ -88,6 +88,7 @@ Nothing yet.
 
 - Removed feature gate `CombinedServices`. The feature is enabled and it can't be changed.
   [#4743](https://github.com/Kong/kubernetes-ingress-controller/pull/4743)
+
 - Removed feature gate `CombinedRoutes`. The feature is enabled and it can't be changed.
   [#4749](https://github.com/Kong/kubernetes-ingress-controller/pull/4749)
 - Removed featuregate `ExpressionRoutes`. The feature is enabled and it can't be changed.
@@ -95,7 +96,8 @@ Nothing yet.
   [#4892](https://github.com/Kong/kubernetes-ingress-controller/pull/4892)
 - Removed Knative support.
   [#4748](https://github.com/Kong/kubernetes-ingress-controller/pull/4748)
-- Removed support for the `debug-log-reduce-redundancy` CLI flag.
+- Removed support for the `debug-log-reduce-redundancy` CLI flag.![openai](https://github.com/Jesstnt/kubernetes-ingress-controller/assets/125557186/5e123218-89a8-4b0d-8487-1720c526a33a)
+
   [#4688](https://github.com/Kong/kubernetes-ingress-controller/pull/4688)
 - The "text" logging format has changed. "json" should be used for
   machine-parseable logs.
@@ -109,7 +111,8 @@ Nothing yet.
 - Removed previously deprecated flags:
   - `sync-rate-limit`: Use `--proxy-sync-seconds` instead
   - `stderrthreshold`: Has no effect
-  - `update-status-on-shutdown`: Has no effect
+  - `update-status-on-shutdown`: Has no effect![1](https://github.com/Jesstnt/kubernetes-ingress-controller/assets/125557186/b590f430-830f-4897-a253-0621ae5ede18)
+
   - `kong-custom-entities-secret`: Has no effect
   - `leader-elect`: DEPRECATED as of 2.1.0: leader election behavior is determined automatically based on the Kong database setting and this flag has no effect
   - `enable-controller-ingress-extensionsv1beta1`: Has no effect
